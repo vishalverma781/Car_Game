@@ -25,6 +25,12 @@ This is a simple car game built using HTML, CSS, and JavaScript. The objective o
 - Simple and easy code.
 - Background music and sound effects.
 
+
+## Screenshots
+
+![Screenshot 2024-04-20 135054](https://github.com/vishalverma781/Car_Game/assets/136993242/ed5116ab-3554-4987-bd45-ac2effd35620)
+![Screenshot 2024-04-20 135115](https://github.com/vishalverma781/Car_Game/assets/136993242/5be59bc1-694f-4812-b14c-8b3839beff8b)
+
 ## Technologies Used
 
 - HTML
