@@ -12,6 +12,7 @@
         background-color: transparent;
         border-radius: 13px;
         background-image: url("./assets/test.png");
+        background-color: white;
         
     
         position: absolute;
@@ -53,6 +54,7 @@
         width: 600px;
         height: 100vh;
         background: #232323;
+        opacity: 0.8;
         margin: auto;
         overflow: hidden;
         
