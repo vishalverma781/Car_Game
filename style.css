@@ -1,0 +1,98 @@
+*{margin: 0;padding: 0;
+    .hide{display: none;}
+    .carGame{
+        width: 100%;
+        height: 100vh;
+        background-image: url(./assets/premium_photo.avif);
+    }
+    }
+    .car , .enemy{
+        width: 50px;
+        height: 70px;
+        background-color: transparent;
+        border-radius: 13px;
+        background-image: url("./assets/test.png");
+        
+    
+        position: absolute;
+        background-repeat: no-repeat;
+        background-size: contain;
+        left: 300px;
+        bottom: 120px;
+}
+    .lines{
+        width:10px;
+        height: 100px;
+        background-color: aliceblue;
+        position: absolute;
+        margin-left: 200px;
+    }
+    .lines2{
+        width:10px;
+        height: 100px;
+        background-color: aliceblue;
+        position: absolute;
+        margin-left: 400px;
+    }
+    .rightlines{
+        width:5px;
+        height: 80px;
+        background-color:  rgb(205, 206, 208);
+        position: absolute;
+        margin-left: 595px;
+    }
+    
+    .leftlines{
+        width:5px;
+        height: 80px;
+        background-color: rgb(205, 206, 208);
+        position: absolute;
+    }
+    .gameArea{
+        position: relative;
+        width: 600px;
+        height: 100vh;
+        background: #232323;
+        margin: auto;
+        overflow: hidden;
+        
+    }
+    .score{
+        position: absolute;
+        top: 20px;
+        left: 50px;
+        background: rgb(20, 20, 149);
+        border-radius: 15px;
+        width: 300px;
+        line-height: 70px;
+        text-align: center;
+
+        color: white;
+        font-size: 1.5rem;
+        font-family: fantasy;
+        box-shadow: 0 5px 5px #777;
+
+    }
+    .start{
+        position: absolute;
+        background-color:red;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%,-50%);
+        color: white;
+        font-family: 'Courier New', Courier, monospace;
+        z-index: 1;
+        text-align: center;
+        border: 1px solid white;
+        padding: 15px;
+        margin: auto;
+        width: 30%;
+        cursor: pointer;
+        letter-spacing: 5;
+        font-size: 20px;
+        word-spacing: 3;
+        line-height: 30px;
+        text-transform: uppercase;
+        box-shadow: 0 5px 5px #777;
+        border-radius: 15px;
+    }
